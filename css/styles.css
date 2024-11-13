@@ -300,7 +300,6 @@ label {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 50%; /* Reduce este valor para disminuir el alto de las cards (por ejemplo, 80% para un rectángulo) */
     margin: 5px; /* Espacio entre las cards */
     border-radius: 8px; /* Opcional: bordes redondeados */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: sombra para dar profundidad */
