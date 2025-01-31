@@ -1,406 +1,421 @@
 <!DOCTYPE html>
-<html lang="en" class="fsvs">
+<html lang="es">
 
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Ibai Ruiz Bretos</title>
-
-	<!--CSS-->
-	<link rel="stylesheet" href="css/fsvs.css">
-	<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-		integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="css/chocolat.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Ibai Ruiz Bretos</title>
+  <meta name="description" content="Portfolio website of Ibai Ruiz Bretos, Full Stack Developer." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-	<nav class="navigation">
-		<ul>
-			<li><a href="#slide-1">About</a></li>
-			<li><a href="#slide-2">Experiencia</a></li>
-			<li><a href="#slide-3">Formación</a></li>
-			<li><a href="#slide-4">Portfolio</a></li>
-			<li><a href="#slide-5">Contacto</a></li>
-		</ul>
-	</nav>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ibai Ruiz Bretos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about" data-key="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio" data-key="portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience" data-key="experience">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-key="contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-	<div id="fsvs-body" class="site-wrapper">
+  <!-- Main Content -->
+  <div class="container mt-5 pt-5">
+    <!-- About Section -->
+    <section id="about" class="text-center py-5">
+	<h2 data-key="about-title" class="mb-4">Sobre mí</h2>
+      <img src="images/photo.jpg" alt="Photo of Ibai Ruiz Bretos" class="profile-photo mb-3" />
+      <h3 class="mb-3">Ibai Ruiz Bretos</h3>
+      <p class="subtitle mt-3">Bilbao &nbsp;|&nbsp; Full Stack Dev. &nbsp;|&nbsp; <a href="Ibai_Ruiz_cv.pdf"
+          target="_blank" class="text-dark">Download CV</a></p>
+      <p>
 
-		<div class="slide">
-			<div class="slide-wrapper">
-				<div class="slide-wrapper-inner">
+        <a href="https://github.com/ibairuiz1984" class="text-decoration-none">
+          <i class="bi bi-github text-dark"></i></i>
+        </a>
+        |
+        <a href="https://www.linkedin.com/in/ibai-ruiz-bretos/" class="text-decoration-none">
+          <i class="bi bi-linkedin text-dark"></i>
+        </a>
+      </p>
 
-					<img src="images/photo.jpg" width="200" class="logo rounded-circle mb-4">
+      <p class="lead" style="text-align: justify">
+        Soy Ibai Ruiz Bretos, desarrollador Full Stack especializado en Inteligencia Artificial y Big Data. Cuento con
+        experiencia en lenguajes como Java, C#, JavaScript, Python y Kotlin, además de dominar tecnologías como ASP.NET
+        Core, Unity 3D y Android Studio. He trabajado en proyectos de desarrollo web, aplicaciones multiplataforma y
+        videojuegos, combinando creatividad y habilidades técnicas.
+      </p>
+      <p class="lead" style="text-align: justify">
+        Me apasiona aprender y adaptarme a nuevas tecnologías, como he demostrado en roles donde he desarrollado
+        aplicaciones web, creado material didáctico y trabajado con frameworks modernos. Mi objetivo es aportar
+        soluciones innovadoras y seguir creciendo como programador en proyectos desafiantes.
+      </p>
+    </section>
 
-					<h1>Ibai Ruiz Bretos</h1>
-					<p class="subtitle mt-3">Bilbao &nbsp;|&nbsp; Full Stack Dev. &nbsp;|&nbsp; <a
-							href="Ibai_Ruiz_cv.pdf" target="_blank">Download CV</a></p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+      <h2 data-key="portfolio-title" class="mb-4">Portfolio</h2>
+      <p class="lead" style="text-align: justify">
+        Éstos son algunos de mis últimos proyectos.</p>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+          <div class="card w-100">
+            <img src="images\historia.png" class="card-img-top" alt="Interactive Story" />
+            <div class="card-body">
+              <h5 class="card-title">Historia interactiva</h5>
+              <p class="card-text">
+                Historia interactiva al estilo "Elije tu propia historia".
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">JavaScript + HTML</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/ibairuiz1984/ChooseYourAdventure.git" class="card-link"><i
+                  class="bi bi-github text-dark"></i></a>
+              <a href="https://ibairuiz1984.github.io/ChooseYourAdventure/" class="card-link">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="width: 18rem">
+            <img src="images\chatbot.png" class="card-img-top" alt="ChatBot" />
+            <div class="card-body">
+              <h5 class="card-title">ChatBot</h5>
+              <p class="card-text">
+                Un chatbot con el que puedes interactuar de forma sencilla.
+                Inspirado en Eliza creado por Joseph Weizenbaum en 1966.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">JavaScript + HTML + Bootstrap</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/ibairuiz1984/ChatBot.git" class="card-link"><i
+                  class="bi bi-github text-dark"></i></a>
+              <a href="https://ibairuiz1984.github.io/ChatBot//" class="card-link">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="width: 18rem">
+            <img src="images\dados.png" class="card-img-top" alt="Dice-control" />
+            <div class="card-body">
+              <h5 class="card-title">Lanzador de dados</h5>
+              <p class="card-text">
+                Lanza hasta tres dados de diferentes caras y elije el mínimo
+                para el exito de tu tirada. El complemento ideal para tus
+                partidas de Rol.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">JavaScript + HTML + CSS</li>
+            </ul>
+            <div class="card-body">
 
-
-					<p class="lead" style="text-align: justify;">
-						¡Hola! Soy Ibai Ruiz Bretos, desarrollador Full Stack con especialización en Inteligencia
-						Artificial y Big Data. Tengo experiencia en el uso de tecnologías como Python, Docker, Apache
-						Spark, y Hadoop para crear soluciones escalables y procesar grandes volúmenes de datos.
-					</p>
-					<p class="lead" style="text-align: justify;">He trabajado en el desarrollo de aplicaciones móviles
-						con Android Studio y Kotlin, así como en proyectos interactivos utilizando Unity. También cuento
-						con experiencia en ASP.Net Core, C#, Java, JavaScript y bases de datos SQL y NoSQL como MongoDB.</p>
-					<p class="lead" style="text-align: justify;">Este portafolio muestra algunos de mis proyectos más
-						destacados, reflejando mi habilidad para abordar proyectos tanto en front-end como en back-end.
-						¡Estoy listo para contribuir con mi experiencia a tus proyectos futuros!</p>
-
-				</div>
-			</div>
-		</div><!--/ .slide-->
-
-		<div class="slide">
-			<div class="slide-wrapper">
-				<div class="slide-wrapper-inner">
-					<h2>Experiencia Profesional</h2>
-
-					<!-- Experiencia Profesional 1 -->
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">Marzo 2024 - Junio 2024</div>
-								<h3>Inetum</h3>
-								<p class="subtitle">Prácticas profesionales (Programación)</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">Como practicante profesional en desarrollo web
-									ASP.NET y ciberseguridad en Inetum para el cliente Iberdrola, tuve la oportunidad de
-									participar en proyectos desafiantes que combinaron el desarrollo y mantenimiento de
-									aplicaciones web con un enfoque en la seguridad de la información. Adquirí
-									habilidades y conocimientos valiosos que son fundamentales en el campo de la
-									tecnología de la información y la ciberseguridad.</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Experiencia Profesional 2 -->
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">Noviembre 2021 - Marzo 2022</div>
-								<h3>Code4Jobs/BBK Bootcamp</h3>
-								<p class="subtitle">Programador web</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">Como ayudante de instrucción en programación en
-									Code4Jobs/BBK Bootcamp, mi rol consistió en ofrecer tutorías, corregir ejercicios,
-									brindar soporte a profesores y colaborar en la elaboración de material formativo.
-									Esto incluyó trabajar con tecnologías como JavaScript, C#, React, Node, Express y
-									bases de datos relacionales.</p>
-							</div>
-						</div>
-					</div>
-
-
-					<!-- Experiencia Profesional 6 -->
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">Enero 2012 - Junio 2019</div>
-								<h3>Escuela de Cine del País Vasco</h3>
-								<p class="subtitle">Administrador/Director académico</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">En la Escuela de Cine del País Vasco, tuve el cargo
-									de director académico y administrador. Fui responsable de la gestión académica del
-									centro, incluida la elaboración de planes de estudios, la gestión de recursos
-									humanos y la administración general de la empresa.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4 d-flex align-items-center">
-								<h3 style="margin: 0;"><a href="Ibai_Ruiz_cv.pdf"
-										style="text-decoration: none; color: black;" target="_blank">Más +</a></h3>
-							</div>
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description"><a href="Ibai_Ruiz_cv.pdf" target="_blank">Mira mi
-										currículum</a></p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div><!--/ .slide-->
-
-
-		<div class="slide">
-			<div class="slide-wrapper">
-				<div class="slide-wrapper-inner">
-					<h2>Formación</h2>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">2024-2025</div>
-								<h3>Especialización en IA y BigData</h3>
-								<p class="subtitle">CIFP Txurdinaga LHII</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">He realizado una especialización en Inteligencia
-									Artificial y Big Data, adquiriendo experiencia en tecnologías como Python, Docker,
-									Apache Spark, Hadoop, y bases de datos NoSQL (como MongoDB y Cassandra). A través de
-									proyectos prácticos, he aprendido a gestionar y analizar grandes volúmenes de datos,
-									así como a implementar modelos de IA utilizando herramientas de procesamiento
-									distribuido y contenedores para soluciones escalables y eficientes.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">2022-2024</div>
-								<h3>Desarrollo de Aplicaciones Multiplataforma</h3>
-								<p class="subtitle">CIFP Txurdinaga LHII</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">He completado el programa de Técnico
-									Superior en Desarrollo de Aplicaciones Multiplataforma, donde he adquirido
-									conocimientos en
-									el desarrollo de aplicaciones web utilizando diversas tecnologías como HTML, CSS,
-									Java,
-									JavaScript, ASP.NET, Android Studio, Kotlin y bases de datos SQL y MongoDB.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">2022</div>
-								<h3>Desarrollo de videojuegos y RV con UNITY 3D</h3>
-								<p class="subtitle">Centro de Estudios Almi</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">Durante este curso, adquirí habilidades
-									en la creación de entornos interactivos, personajes y mecánicas de juego utilizando
-									la plataforma UNITY 3D.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4">
-								<div class="date">2020-2021</div>
-								<h3>Full Stack Javascript & Back-end</h3>
-								<p class="subtitle">BBK Bootcamp</p>
-							</div>
-
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description">Completé el programa Full Stack en BBK Bootcamp,
-									dominando tecnologías como Node.js, Express, MongoDB y React para desarrollar
-									aplicaciones web dinámicas y escalables. Además, ASP.NET Core, SQL Server.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="row">
-							<div class="col-sm-12 col-md-3 text-left border-right pr-4 d-flex align-items-center">
-								<h3 style="margin: 0;"><a href="Ibai_Ruiz_cv.pdf"
-										style="text-decoration: none; color: black;" target="_blank">Más +</a></h3>
-							</div>
-							<div class="col text-left mt-md-3">
-								<p class="pl-md-2 item-description"><a href="Ibai_Ruiz_cv.pdf" target="_blank">Mira mi
-										currículum</a></p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div><!--/ .slide-->
-
-		<div class="slide">
-			<div class="slide-wrapper">
-				<div class="slide-wrapper-inner">
-					<h2>Portfolio</h2>
-
-					<!--Gallery-->
-					<div class="row gallery chocolat-parent" data-chocolat-title="Portfolio">
-
-						<!--Gallery Item-->
-						<div class="col-sm-6 col-md-4 col-gallery	" data-category="1" data-sort="value">
-							<figcaption>
-								<div class="parent">
-									<img src="images\Battleship.gif" class="img-fluid">
-									<div class="child ">
-										<h3>Battleship React</h3>
-										<p>Basado en MERN y JavaScript. Librería Socket.IO para el
-											multijugador.</p>
-										<a href="images\Battleship.gif" class="btn chocolat-image"
-											title="Enter your image caption here">View Full Size</a>
-									</div>
-								</div>
-							</figcaption>
-						</div>
-
-						<!--Gallery Item-->
-						<div class="col-6 col-md-4 col-gallery">
-							<figcaption>
-								<div class="parent">
-									<img src="images\CRUD1.PNG" class="img-fluid">
-									<div class="child ">
-										<h3>BD de películas con ASP.Net Core</h3>
-										<p>CRUD de películas con base de datos en SQL. Tecnología ASP.NET Core,
-											C#, JavaScript y HTML + css.</p>
-										<a href="images\CRUD1.PNG" class="btn chocolat-image"
-											title="Enter your image caption here">View Full Size</a>
-									</div>
-								</div>
-							</figcaption>
-						</div>
-
-						<!--Gallery Item-->
-						<div class="col-6 col-md-4 col-gallery">
-							<figcaption>
-								<div class="parent">
-									<img src="images\lezama.gif" class="img-fluid">
-									<div class="child ">
-										<h3>El misterio de lezama</h3>
-										<p>App didáctica de Lezama con Android Studio y Kotlin.</p>
-										<a href="images\lezama.gif" class="btn chocolat-image"
-											title="Enter your image caption here">View Full Size</a>
-									</div>
-								</div>
-							</figcaption>
-						</div>
-
-						<!--Gallery Item-->
-						<div class="col-sm-6 col-md-4 col-gallery">
-							<figcaption>
-								<div class="parent">
-									<img src="images\Rubber2.gif" class="img-fluid">
-									<div class="child ">
-										<h3>Juego Rubber</h3>
-										<p>Proyecto realizado en Unity 3D para dispositivos móviles.</p>
-										<a href="images\Rubber2.gif" class="btn chocolat-image"
-											title="Enter your image caption here">View Full Size</a>
-									</div>
-								</div>
-							</figcaption>
-						</div>
-
-						<!-- MÁS PROYECTOS!! ***************************************************-->
-					</div>
-
-				</div>
-			</div>
-		</div><!--/ .slide-->
-
-		<div class="slide">
-			<div class="slide-wrapper">
-				<div class="slide-wrapper-inner">
-
-					<div class="container">
-						<!-- Datos de contacto -->
-						<div class="row justify-content-center mt-5">
-							<div class="col-md-6">
-								<h2 class="text-center">¡Contáctame!</h2>
-								<p class="text-center">Completa el formulario o contáctame directamente a través de los
-									siguientes medios:</p>
-								<ul class="list-unstyled">
-									<li><strong>Linkedin:</strong> <a
-											href="https://www.linkedin.com/in/ibai-ruiz-bretos/" target="_blank"><i
-												class="bi bi-linkedin"></i></a></li>
-									<li><strong>Email:</strong> <a href="mailto:river.ruiz@gmail.com"><i
-												class="bi bi-envelope"></i></a></li>
-									<li><strong>GitHub:</strong> <a href="https://github.com/ibairuiz1984"
-											target="_blank"><i class="bi bi-github"></i></a></li>
-									<li><strong>Dirección:</strong> Bilbao</li>
-								</ul>
-							</div>
-						</div>
+              <a href="https://github.com/ibairuiz1984/Dice-control.git" class="card-link"><i
+                  class="bi bi-github text-dark"></i></a>
+              <a href="https://ibairuiz1984.github.io/Dice-control/" class="card-link">Demo</a>
 
 
-						<!-- Formulario de contacto -->
-						<div class="row justify-content-center mt-5">
-							<div class="col-md-6">
-								<h3 class="text-center mb-4">Completa el formulario de contacto</h3>
-								<form action="https://formspree.io/f/xnqeozbz" method="POST" id="contactForm"
-									novalidate>
-									<div class="mb-3">
-										<label for="email" class="form-label">Tu correo electrónico:</label>
-										<input type="email" class="form-control" id="email" name="email" required>
-									</div>
-									<div class="mb-3">
-										<label for="message" class="form-label">Tu mensaje:</label>
-										<textarea class="form-control" id="message" name="message" rows="5"
-											required></textarea>
-									</div>
-									<button type="submit" class="btn btn-primary">Enviar</button>
-								</form>
-							</div>
-						</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="width: 18rem">
+            <img src="images\Rubber2.gif" class="card-img-top" alt="Crazy Rubber Game"
+              style="height: 200px; object-fit: cover" />
+            <div class="card-body">
+              <h5 class="card-title">Crazy Rubber Game</h5>
+              <p class="card-text">
+                Juego para dispositivos móviles en el que debes evitar los
+                obstáculos y llegar lo más lejos posible.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">Unity 3d + C#</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/ibairuiz1984/CrazyRubberProject.git" class="card-link"><i
+                  class="bi bi-github text-dark"></i></a>
+              <a href="images/Rubber2.gif" class="card-link">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="width: 18rem">
+            <img src="images\lezama.gif" class="card-img-top" alt="Lezama" style="height: 200px; object-fit: cover" />
+            <div class="card-body">
+              <h5 class="card-title">El misterio de Lezama</h5>
+              <p class="card-text">
+                App didáctica sobre la localidad de Lezama (Bizkaia) para
+                dispositivos móviles. Mediante mini juegos aprenderás sobre
+                las curiosidades e historia de este municipio.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">Android Studio + Kotlin</li>
+            </ul>
+            <div class="card-body">
+              <a href="images/lezama.gif" class="card-link"><i class="bi bi-github text-dark"></i></a>
+              <a href="images/lezama.gif" class="card-link">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="width: 18rem">
+            <img src="images\Battleship.gif" class="card-img-top" alt="Films"
+              style="height: 200px; object-fit: cover" />
+            <div class="card-body">
+              <h5 class="card-title">Battleship</h5>
+              <p class="card-text">
+                Juego para dos personas basado en Battleship (hundir la
+                flota).
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">REACT + JavaScript + SocketIO</li>
+            </ul>
+            <div class="card-body">
+              <a href="images\Battleship.gif" class="card-link"><i class="bi bi-github text-dark"></i></a>
+              <a href="images\Battleship.gif" class="card-link">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card w-100" style="width: 18rem">
+            <img src="images\CRUD1.PNG" class="card-img-top" alt="Films" style="height: 200px; object-fit: cover" />
+            <div class="card-body">
+              <h5 class="card-title">CRUD de películas.</h5>
+              <p class="card-text">
+                Base de datos con cientros de peliculas donde puedes
+                introducir comentarios y valoraciones. Te recomendará
+                peliculas diariamente.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <strong>Tecnologías usadas:</strong>
+              </li>
+              <li class="list-group-item">ASP.Net + C#</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://github.com/ibairuiz1984/CRUDPeliculas.git" class="card-link"><i
+                  class="bi bi-github text-dark"></i></a>
+              <a href="images\CRUD1.PNG" class="card-link">Demo</a>
+            </div>
+          </div>
+        </div>
+    </section>
 
-						<!-- Llamada a la acción -->
-						<div class="row justify-content-center mt-5">
-							<div class="col-md-6">
-								<p class="text-center">¿Necesitas ayuda con tu proyecto? ¡No dudes en contactarme!</p>
-							</div>
-						</div>
-					</div>
+    <!-- Experience Section -->
+    <section id="experience" class="py-5">
+      <h2 class="mb-4">
+        Experiencia
+      </h2>
+      <div class="row">
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-icon">
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="item mb-4">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 text-left border-right pr-4">
+                  <div class="date">Junio 2023 - Actualmente</div>
+                  <h4>Desarrollador Full Stack</h4>
+                  <p class="subtitle">
+                    Freelance (Desarrollo Web y Aplicaciones)
+                  </p>
+                </div>
 
-				</div>
-			</div>
-		</div><!--/ .slide-->
+                <div class="col text-left mt-md-3">
+                  <p class="pl-md-2 item-description">
+                    Como desarrollador frelance, he participado en equipos de
+                    desarrollo web y aplicaciones móviles, utilizando
+                    tecnologías como ASP.NET Core, Vue, Node, Express... He
+                    colaborado con clientes de diferentes sectores, como
+                    educación, turismo y agentes sociales, para crear
+                    soluciones a medida que se adaptan a sus necesidades.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-	</div><!--/ .site-wrapper-->
+            <!-- Experiencia Profesional 1 -->
+            <div class="item mb-4">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 text-left border-right pr-4">
+                  <div class="date">Marzo 2023 - Junio 2023</div>
+                  <h4>Inetum</h4>
+                  <p class="subtitle">Programador Junior</p>
+                </div>
+
+                <div class="col text-left mt-md-3">
+                  <p class="pl-md-2 item-description">
+                    Como programador junior en desarrollo web ASP.NET y
+                    ciberseguridad en Inetum para el cliente Iberdrola,
+                    participé en proyectos desafiantes que combinaban el
+                    desarrollo y mantenimiento de aplicaciones web con un
+                    enfoque en la seguridad de la información.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experiencia Profesional 2 -->
+            <div class="item mb-4">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 text-left border-right pr-4">
+                  <div class="date">Noviembre 2021 - Marzo 2022</div>
+                  <h4>Code4Jobs/BBK Bootcamp</h4>
+                  <p class="subtitle">Programador Web</p>
+                </div>
+
+                <div class="col text-left mt-md-3">
+                  <p class="pl-md-2 item-description">
+                    Como asistente de instrucción en programación en
+                    Code4Jobs/BBK Bootcamp, mi rol consistía en ofrecer
+                    tutorías, corregir ejercicios, brindar apoyo a los
+                    profesores y colaborar en el desarrollo de materiales de
+                    formación. Esto incluía trabajar con tecnologías como
+                    JavaScript, C#, React, Node, Express y bases de datos
+                    relacionales.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 text-left border-right pr-4 d-flex align-items-center">
+                  <h4 style="margin: 0">
+                    <a href="Ibai_Ruiz_cv.pdf" style="text-decoration: none; color: black" target="_blank">Más +</a>
+                  </h4>
+                </div>
+                <div class="col text-left mt-md-3">
+                  <p class="pl-md-2 item-description">
+                    <a href="Ibai_Ruiz_cv.pdf" target="_blank">Ver mi currículum</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-	<!-- jQuery first, then Tether, then Bootstrap JS. -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-		integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-		integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-		crossorigin="anonymous"></script>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <!-- Contact Information -->
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6 text-center">
+            <h2>¡Contáctame!</h2>
+            <p class="lead">
+              Completa el formulario o contácteme directamente a través de los siguientes medios:
+            </p>
+            <ul class="list-inline">
+              <a href="https://github.com/ibairuiz1984" class="text-decoration-none">
+                <i class="bi bi-github text-dark"></i> </i>
+              </a>
+              |
+              <a href="https://www.linkedin.com/in/ibai-ruiz-bretos/" class="text-decoration-none">
+                <i class="bi bi-linkedin text-dark"> </i>
+              </a>
+              |
+              <a href="mailto:ibairuiz@hotmail.com" class="text-decoration-none">
+                <i class="bi bi-envelope text-dark"> </i>
+              </a>
 
-	<!--Full Screen Vertical Slider-->
-	<script type="text/javascript" src="js/fsvs.js"></script>
-	<script>
-		jQuery(document).ready(function ($) {
-			var slider = $.fn.fsvs({
-				speed: 1200,
-				bodyID: 'fsvs-body',
-				selector: '> .slide',
-				mouseDragEvents: false
-			});
-		});
-	</script>
+            </ul>
+          </div>
+        </div>
 
-	<!-- Chocolat -->
-	<script type="text/javascript" src="js/jquery.chocolat.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('.chocolat-parent').Chocolat();
-		});
-	</script>
+
+        <!-- Formulario de Contacto -->
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+
+            <form action="https://formspree.io/f/xnqeozbz" method="POST" id="contactForm" novalidate>
+              <div class="mb-3">
+                <label for="email" class="form-label">Tu email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Tu mensaje:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark w-100">Enviar</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Llamada a la Acción -->
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <p class="text-center">¿Necesitas ayuda con tu proyecto? ¡No dudes en contactarme!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer dark-->
+  <footer class="bg-dark text-white text-center p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>&copy; 2025 Ibai Ruiz Bretos.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
